@@ -1,3 +1,9 @@
+TODO:
+- explain the motivation behind `tiny_actor`
+- compare/contrast it to `Ractor`
+- move all of this explanation into `lib/tiny_actor.rb` like the other tiny gems
+
+```ruby
 # thinking that the syntax here should be something like what's below, and start
 # with a simple spawning capability
 #
@@ -23,3 +29,4 @@ img_resizer_remote.send('https://test.com/img-54321.png 200x200 400x400 600x600'
 #
 # do I really need named remote processes? maybe helpful for debugging, but the
 # local variabl name is the thing that gives them a name locally.
+```
